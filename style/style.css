@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+:root{
+    --main-color:rgb(230, 83, 60);
+}
+.shape{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+header{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 9%, rgba(0,0,0,0.8829656862745098) 100%);
+}
+.navbar-part{
+    width: 90%;
+    margin: 0 auto;
+
+}
+nav{
+    padding-top: 2rem;
+}
+.nav-logo{
+    font-size: 1.8rem;
+    font-style: italic;
+    color:var(--main-color) ;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-ul{
+    border: 1px solid rgb(117, 117, 117);
+    border-radius: 50px;
+    padding: 0.4rem 2rem ;
+    padding-left: 0;
+    padding-right: 1rem;
+}
+.nav-ul > ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+    margin-left: 1px;
+}
+#home{ 
+    border-radius: 50px;
+    padding: 6px 10px;
+    background-color: var(--main-color) ;
+}
+.nav-ul > ul >li > a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+.bar{
+    display: none;
+}
+.body{
+    margin: 0 auto;
+
+}
+.body-area{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.body-info{
+    margin-bottom: 3rem;
+}
+.body-info > h2{
+    color: white;
+    font-size: 5rem;
+    font-weight: 700;
+}
+.body-info > p{
+    color: rgb(176, 176, 176);
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+.btn-part{
+    gap: 1rem;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.btn{
+
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    border: none;
+    font-weight: 600;
+}
+#btn{
+    width: 224px;
+    height: 54px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 5px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    background: transparent;
+
+    border-radius: 42px;
+}
+.body-img{
+    position: relative;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+}
+.video{
+    width: 170px;
+    height: 100px;
+    padding: 20px 10px ;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    top: 70%;
+    right: 70%;
+    border-radius: 8px;   
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.055);
+}
+.workout{
+    position: absolute;
+    width: 170px;
+    padding: 10px 0px 10px 15px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;   
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.055);
+    height: 98px;
+    top: 132px;
+    left: 229px;
+
+}
+.video h2,
+.workout h2{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 900;
+}
+.video p,
+.workout p{
+    color: rgba(201, 201, 201, 0.65);
+    font-size: 1rem;
+    font-weight: 400;
+}
+main{
+    background:#000000 ;
+}
+.habits{
+    text-align: center;
+    margin-bottom: 42px;
+}
+.habit-area{
+    width: 90%;
+    margin: 0 auto;
+}
+.habits h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 900;
+    padding: 10px;
+    padding-top: 100px;
+}
+.habits h2{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 800;
+    padding: 7px;
+}
+.habits p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+    margin-bottom: 80px;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+.items img{
+    border-radius: 50%;
+}
+.mile-area{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 18px;
+    gap: 70px;
+    background: rgb(34, 34, 34);
+    padding: 40px 0px;
+}
+.info{
+    padding: 10px 25px;
+    width: 40%;
+}
+.info h2{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    padding: 10px;
+}
+.info p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+    margin-bottom: 34px;
+}
+.mile-img-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.mile-img-1 img{
+    width: 80%;
+    border-radius: 25px;
+    object-fit: contain;
+}
+.btn-2{
+    border: none;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+
+}
+.training-part-1{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.training{
+    width: 90%;
+    margin: 0 auto;
+}
+.training-part-1 h2{
+    color: rgb(255, 255, 255);
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 48px;
+    font-weight: 900;
+
+}
+.training-part-1 p{
+    font-weight: 400;
+    margin-top: 14px;
+    margin-bottom: 58px;
+    margin-left: 54px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+
+}
+.trainings-img-1{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.collum-1{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.collum-2{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+.trainings-img-1 img{
+    width: 100%;
+    height: 256px;
+}
+.extra1 img{
+    height: 255px;
+}
+.bmi-cal-area{
+    width: 90%;
+    margin: 0 auto;
+}
+.bmi-cal-info{
+    width: 671px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    align-items: start;
+    padding: 88px 0px;
+}
+.bmi-cal-info h2{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    padding: 14px 0px;
+    margin-top: 40px;
+}
+.bmi-cal-info p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}.bmi-chart-cal{
+    background: rgb(34, 34, 34);
+}
+.bmi-chart-cal-info{
+    width: 90%;
+    margin: 0 auto;
+}
+table{
+    border-collapse: collapse;
+}
+th{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+td, th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: left;
+    padding: 15px 35px;
+}
+.bmi-chart-1 h2{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    padding: 52px 0px;
+}
+.bmi-chart-cal-info{
+    display: flex;
+    justify-content: space-between;
+}
+.height-weight input,
+.age-sex input{
+    width: 250.5px;
+    height: 48px;
+    margin: 4px 2px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.age-sex, 
+.height-weight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+select{
+    width: 290px;
+    height: 55px;
+    margin: 4px 2px;
+    padding: 5px 20px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter; 
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.factor select{
+    width: 591px;
+    margin: 4px 2px;
+}
+.factor input{
+    width: 555px;
+    height: 48px;
+    padding: 5px 20px;
+    margin: 4px 2px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.factor input::placeholder,
+.height-weight input::placeholder,
+.age-sex input::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter; 
+    font-size: 16px;
+    font-weight: 400;
+}
+.bmi-cal h2{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    padding: 30px 0px 14px 0px;
+    margin: 20px 2px 0px 0px;
+}
+.bmi-cal p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px 2px ;
+    padding-bottom: 34px;
+}
+.btn3{
+    margin-top: 34px;
+    margin-bottom: 54px;
+}
+input{
+    color: white;
+
+}
+.meet-team-area{
+    padding-bottom: 88px;
+}
+.meet-team-info{
+    width: 90%;
+    margin: 0 auto;
+}
+.meet-title{
+    text-align: center;
+}
+.meet-title h2{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 88px;
+    padding: 14px;
+
+}
+.meet-title p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 78px;
+}
+.meet-team-img-1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+}
+.meet-team-img-1 img{
+    width: 100%;
+    height: 272px;
+    border-radius: 18px;
+    opacity: 0.7;
+    object-fit: cover;
+}
+.trainer-img{
+    position: relative;
+}
+.trainer-info{
+    position: absolute;
+    bottom: 19px;
+    left: 19px;
+}
+.trainer-info h2{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 700;
+}
+.trainer-info p{
+    color: rgba(247, 246, 246, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+.more-info{
+    background: rgba(26, 26, 26, 0.945);
+}
+.more-info-content-1{
+    width: 90%;
+    margin: 0 auto;
+}
+.more-info-content-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 66px;
+    gap: 40px;
+}
+.more-title h2{
+    color: rgb(230, 83, 60);
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+.more-title p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+.more-service h2{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 29px;
+}
+.more-service p{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 23px;
+    font-weight: 400;
+    padding: 15px 0px;
+}
+hr{
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.copyright-content-1{
+    text-align: center;
+    padding: 36px;
+}
+.copyright-content-1 p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 300;
+}
+footer{
+    background-color: #000000;
+}
