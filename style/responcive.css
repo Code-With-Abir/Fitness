@@ -1,0 +1,327 @@
+@media screen and (max-width:576px){
+    .navbar-part,
+    .body{
+        width: 100%;
+        margin: 0;
+    }
+    
+    .header-part{
+       height: 100%;
+    }
+    .nav-ul{
+        display: none;
+    }
+    nav{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .bar{
+        display: block;
+        color: rgb(255, 255, 255);
+        font-size: 1.6rem;
+    }
+    .header-part{
+        height: 100%;
+    }
+    .body-info{
+        width: 90%;
+    }
+    .body-info h2{
+        width: 229px;
+        font-size: 36px;
+    }
+    .body-info p{
+        width: 274px;
+        font-size: 14px;
+    }
+    .body-area{
+        gap: 4px;
+        align-items: start;
+        justify-content: center;
+        margin-left: 10px;
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+
+    }
+    .shape{
+        font-size: 50px;
+    }
+    .btn{
+        width: 200px;
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .btn-part{
+        width: 110%;
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        align-items: center;
+    }
+    #btn{
+        width: 200px;
+        font-size: 15px;
+    }
+    .body-img{
+        width: 292px;
+        margin: 0 auto;
+    }
+    .body-img img{
+        width: 100%;
+    }
+    .video-btn{
+        position: absolute;
+        top: 50%;
+        left: 55%;
+        transform: translate(-50% , -50%);
+        width: 0;
+        height: 0;
+        border-top: 11px solid transparent;
+        border-left: 21px solid #fffefe;
+        border-bottom: 10px solid transparent;
+
+    }
+    .circle{
+        position: relative;
+        padding: 8px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .workout{
+        width: 123.91px;
+        height: 74.09px;
+        top: 38px;
+        left: 159px;
+    }
+    .video{
+        width: 155.74px;
+        height: 72.58px;
+        top: 209px;
+        right: 132px; 
+    }
+    .video h2,
+    .workout h2{
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-weight: 900;
+    }
+    .video p,
+    .workout p{
+        font-size: 9px;
+    }
+    .items{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+    .habits{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .habits h2{
+        width: 90%;
+        margin: 0 auto;
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        font-weight: 700;
+        padding: 10px;
+    }
+    .habits p{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 58px;
+        line-height: 24px;
+    }
+    .items p{
+        margin-bottom: 30px;
+    }
+    .mile-area{
+        width: 90%;
+        flex-direction: column;
+    }
+    .info{
+        padding: 10px 25px;
+        width: 90%;
+    }
+    .info h2{
+        font-size: 32px;
+    }
+    .btn2{
+        margin-left: 4px;
+        width: 90%;
+    }
+    .mile-area{
+        width: 90%;
+        flex-direction: column;
+    }
+    .info{
+        padding: 10px 25px;
+        width: 90%;
+    }
+    .info h2{
+        font-size: 32px;
+    }
+    .btn2{
+        margin-left: 4px;
+        width: 90%;
+    }
+    .mile-img-1 img{
+        width: 100%;
+    }
+    .mile-img-1{
+        width: 90%;
+    }
+    .training{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .training-part-1 h2{
+        width: 90%;
+        font-size: 25px;
+        margin-top: 30px;
+        margin-right: 0;
+    }
+    .training-part-1 p{
+        width: 80%;
+        margin-bottom: 37px;
+    }
+    .trainings-images-1 img{
+        width: 100%;
+        height: 139px;
+    }
+    .extra3,
+    .extra6{
+        display: none;
+    }
+    .collum-1,
+    .collum-2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .bmi-cal-area{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .bmi-cal-info{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: left;
+        align-items: start;
+        padding: 88px 0px;
+    }
+    .bmi-cal-info{
+        padding: 21px 0px;
+    }
+    .bmi-cal-info h2{
+        width: 236px;
+        font-size: 32px;
+
+    }
+    .bmi-cal-info p{
+        width: 90%;
+        line-height: 24px;
+    }
+    .bmi-chart-cal-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 0px;
+    }
+    .bmi-chart-1 h2,
+    .bmi-cal h2{
+        font-size: 16px;
+        font-weight: 900;
+        padding: 20px 0px;
+    }
+    .bmi-cal p{
+        width: 90%;
+        line-height: 24px;
+    }
+    select{
+        width: 143px;
+        margin: 0 auto;
+    }
+    .factor select{
+        width: 290px;
+        margin: 5 auto;
+    }
+    .factor{
+        text-align: center;
+    }
+    .height-weight input,
+    .age-sex input{
+        width: 102px;
+        height: 48px;
+        margin:4px 2px;
+        padding: 5px 20px;
+        border: none;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+    }
+    .age-sex, 
+    .height-weight,
+    select{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 5px;
+    }
+    .btn3{
+        width: 224px;
+        margin-left: 40px;
+        margin-top: 34px;
+        margin-bottom: 54px;
+    }
+    .meet-title h2{
+        font-size: 32px;
+        margin-top: 55px;
+    }
+    .meet-title p{
+        width: 280px;
+        margin: 0 auto;
+        line-height: 24px;
+        margin-bottom: 37px;
+    }
+    .meet-team-img-1{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .more-info-area-1{
+        width: 90%;
+        margin: 0 ;
+    }
+    .meet-team-img-1 img{
+        width: 100%;
+        margin: 0 auto;
+        height: 242px;
+        border-radius: 18px;
+        opacity: 0.7;
+    }
+    .more-info-content-1{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
+        gap: 10px;
+    }
+    .more-title p{
+        width: 290px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        
+    }
+
+}
